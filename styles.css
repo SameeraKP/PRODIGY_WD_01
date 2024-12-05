@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    transition: background-color 0.3s, color 0.3s;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+section {
+    padding: 100px 20px;
+    height: 100vh; /* Full height for demo */
+    text-align: center; /* Center text */
+}
+
+#home {
+    background-color: #add8e6; /* Light Blue */
+    color: #333;
+}
+
+#courses {
+    background-color: #ffb3d9; /* Light Pink */
+    color: #333;
+}
+
+#about {
+    background-color: #d8bfd8; /* Thistle (Light Purple) */
+    color: #333;
+}
+
+#contact {
+    background-color: #b0e0e6; /* Powder Blue */
+    color: #333;
+}
+
+#contact-form {
+    margin-top: 20px;
+}
+
+#contact-form input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact-form button:hover {
+    background-color: #555;
